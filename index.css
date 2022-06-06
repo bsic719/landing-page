@@ -4,6 +4,7 @@ body {
   justify-content: space-between;
   background-color: orange;
   margin: 0;
+  font-family: Verdana, sans-serif;
 }
 
 img {
@@ -65,17 +66,62 @@ h2, h3, h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 15px;
   font-weight: 700;
   gap: 25px;
+  color: purple;
 }
 
 .item2_b {
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 
 .fact {
-  margin: 10px;
+  padding: 10px;
   max-width: 300px;
+}
+
+.footer, .item4, .item3 {
+  text-align: center;
+}
+
+.item3 {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 30px 90px;
+  background-color: purple;
+  color: orange;
+}
+
+.block {
+  position: fixed;
+  padding: 50px 0;
+  max-width: 150px;
+  bottom: 50%;
+  left: 0;
+}
+
+.item4 {
+  display: flex;
+  justify-content: center;
+}
+
+.item4 div {
+  color: white;
+  height: 100px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  margin: 20px 0px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.item4 button {
+    margin-top: 10px;
 }
