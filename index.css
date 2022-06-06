@@ -3,8 +3,79 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: orange;
+  margin: 0;
 }
 
 img {
-  width:300px;
+  height:300px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  color: orange;
+  background-color: purple;
+  padding: 15px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+.item1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: purple;
+  color: white;
+  padding: 30px;
+}
+
+.item1_a {
+  width: 300px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h2, h3, h4 {
+  margin: 5px 0px;
+  padding: 0px;
+}
+
+.pic9 {
+  height: 300px;
+}
+
+.item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-weight: 700;
+  gap: 25px;
+}
+
+.item2_b {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fact {
+  margin: 10px;
+  max-width: 300px;
 }
